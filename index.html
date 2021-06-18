@@ -5,14 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>morse code decoder</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #txt-input {
+            border: 1px solid black;
+            width: 93%;
+            height: 18vh;
+            display: block;
+            margin: 1rem 0rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 13vh;
+            width: 93%;
+            margin: 1rem 0rem;
+            padding: 1rem;
+        }
+    </style>
 </head>
 <body>
     <nav class="navigation-container">
-        <div> <h2>morse code decoder</h2> </div>
+        <div id="nav-header"> <h2>morse code decoder</h2> </div>
     </nav>
     <main>
-        <button id= "btn-translate">Translate</button>
+        <textarea id="txt-input" placeholder="Put your message here which you want to translate "></textarea>
+        <button id="btn-translate"> Translate to Morse Code</button>
+
+        <div style="font-size: larger; color: black; ">Translation will be shown here 👇</div>
+        <div id="output"></div>
     </main>
+    <footer>
+        <div style="font-size:xx-large;">about</div>
+        <p>Convert from English to Morse Code. Morse code is a method of transmitting text information as a series of on-off tones, lights, or clicks that can be directly understood by a skilled listener or observer without special equipment. .</p>
+    </footer>
 
     <script src="app.js" type="text/javascript"></script>
 </body>
