@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    margin: 0px;
+    color: #ffffff;
+}
+
+/** navbar **/
+
+nav {
+    background: #232526;  
+    background: -webkit-linear-gradient(to right, #414345, #232526); 
+    background: linear-gradient(to right, #414345, #232526); 
+    text-align: center;
+    padding: 0.1rem;
+}
+
+#nav-header{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/** main section **/
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+}
+
+/** button **/
+
+button {
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Mate SC', serif;
+    font-size: large;
+    color: black;
+}
+
+#btn-translate {
+    background-image: linear-gradient(to right, #000000 0%, #434343  51%, #000000  100%)
+}
+
+#btn-translate {
+   margin: 10px;
+   padding: 15px 45px 15px 18px;
+   text-align:left;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ #btn-translate:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+/** textarea **/ 
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 22vh;
+    margin-top: 1.5rem;
+    font-size: large;
+}
+
+/**output area**/
+
+#output {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid black;
+    color: black;
+    font-size:xx-large;
+}
+
+
+
+/** footer **/
+
+footer {
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 1rem;
+    text-align: center;
+    -webkit-text-stroke: 0.3px black;
+}
+
+footer p {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+    padding: 0.3rem;
+}
