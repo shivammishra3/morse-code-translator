@@ -9,6 +9,7 @@ body {
     font-family: 'Merienda', cursive;
     margin: 0px;
     color: #ffffff;
+    overflow: hidden;
 }
 
 /** navbar **/
@@ -49,8 +50,7 @@ button {
 }
 
 #btn-translate {
-   margin: 10px;
-   padding: 15px 45px 15px 18px;
+   padding: 15px 18px 15px 18px;
    text-align:left;
    text-transform: uppercase;
    transition: 0.5s;
@@ -121,21 +121,4 @@ footer p {
 #foot-style{
     color: white;
     text-shadow: 2px 2px 4px #000000;
-}
-
-.bottomright {
-    position: absolute;
-    bottom: 3px;
-    right: 16px;
-    font-size: 14px;
-  }
-
-  
-/** image **/
-
-.image {
-    position: absolute;
-    right: 0%;
-    top: 20%;
-    left: 77%;
 }
