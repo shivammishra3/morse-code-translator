@@ -9,7 +9,6 @@ body {
     font-family: 'Merienda', cursive;
     margin: 0px;
     color: #ffffff;
-    overflow: hidden;
 }
 
 /** navbar **/
@@ -24,6 +23,7 @@ nav {
 
 #nav-header{
     color: white;
+    font-size: 25px;
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -103,7 +103,6 @@ footer {
     background: #232526;
     background: -webkit-linear-gradient(to right, #414345, #232526);
     background: linear-gradient(to right, #414345, #232526);
-    position: fixed;
     bottom: 0;
     width: 100%;
     padding-bottom: 1rem;
@@ -121,4 +120,12 @@ footer p {
 #foot-style{
     color: white;
     text-shadow: 2px 2px 4px #000000;
+}
+
+#symbol{
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
 }
